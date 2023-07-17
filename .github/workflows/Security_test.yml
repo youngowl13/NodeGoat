@@ -70,7 +70,6 @@ jobs:
   # Bandit for Source Code Review
   Bandit:
     name: Bandit Scan
-    needs: secret_scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
